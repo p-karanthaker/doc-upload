@@ -15,7 +15,7 @@ What you're seeing:
 - Middle panel: Customer View - status of all jobs
 - Right panel: Commands executed for uploads and then commands executed to approve/reject
 
-![Video Demo](doc-upload-demo.mp4 "Video Demo")
+https://github.com/p-karanthaker/doc-upload/assets/6483742/434447d1-afd9-45c9-aedf-e5ec0a67ef6c
 
 ## Modules
 - [api](./api) - contains video upload and scan status api endpoints
