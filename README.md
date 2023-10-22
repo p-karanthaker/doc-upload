@@ -11,8 +11,8 @@ They can come back and check on the status at any time.
 
 ## Demo
 What you're seeing:
-- Left panel: Employee View - jobs with PENDING_APPROVALS
-- Middle panel: Customer View - status of all jobs
+- Left panel: Customer View - status of all jobs
+- Middle panel: Employee View - jobs with PENDING_APPROVALS
 - Right panel: Commands executed for uploads and then commands executed to approve/reject
 
 https://github.com/p-karanthaker/doc-upload/assets/6483742/434447d1-afd9-45c9-aedf-e5ec0a67ef6c
