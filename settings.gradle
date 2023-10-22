@@ -1,0 +1,3 @@
+rootProject.name = 'doc-upload'
+include 'api', 'db', 'scanner', 's3'
+

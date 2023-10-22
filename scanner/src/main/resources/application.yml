@@ -1,0 +1,24 @@
+scan-time: 30000
+spring:
+  main:
+    web-application-type: none
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:5432/jobs
+    username: job-service
+    password: example
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  activemq:
+    broker-url: tcp://${MQ_HOST:localhost}:61616
+    queue: jobs
+    user: artemis
+    password: artemis
+aws:
+  host: http://${S3_HOST:localhost}:9000
+  bucket: documents
+  access-key: job-service
+  secret-key: password

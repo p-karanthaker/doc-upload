@@ -1,0 +1,16 @@
+plugins {
+	id("org.springframework.boot") version "3.1.5"
+}
+
+dependencies {
+	implementation project(':db')
+	implementation project(':s3')
+	implementation 'org.springframework.boot:spring-boot-starter-activemq'
+	testImplementation group: 'com.h2database', name: 'h2', version: '2.2.224'
+}
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'me.karanthaker.api.ApiApplication'
+	}
+}
