@@ -40,7 +40,7 @@ Minio Object Storage, and an ActiveMQ broker.
   - Rejects the document with the given id
 - `POST` `/upload`
   - `form-data; name="file" filename="..."`
-  - Upload file as application/octet-stream
+  - Content-Type: multipart/form-data
 
 ## Tests
 `./gradlew test`
